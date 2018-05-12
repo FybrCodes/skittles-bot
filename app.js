@@ -219,4 +219,4 @@ exports.help = {
   
   `bot.setGame('*help
 ');` curently isn't working, use `bot.user.setPresence({ game: { name: '*help', type: 1 } });` as a workaround﻿
-};client.login(config.token);
+};client.login(process.env.BOT_TOKEN);
