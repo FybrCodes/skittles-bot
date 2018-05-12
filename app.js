@@ -218,5 +218,5 @@ exports.help = {
     usage: '!8ball <question>'
   
   `bot.setGame('*help
-');` curently isn't working, use `bot.user.setPresence({ game: { name: '*help', type: 1 } });` as a workaround﻿
-};client.login(process.env.BOT_TOKEN);
+');` curently isn't working, use `bot.user.setPresence({ game: { name: '*help', type: 1 } });`
+client.login(process.env.BOT_TOKEN);
