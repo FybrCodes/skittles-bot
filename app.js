@@ -216,4 +216,7 @@ exports.help = {
     name: '8BALL',
     description: 'Answers to a question which you ask',
     usage: '!8ball <question>'
+  
+  `bot.setGame('*help
+');` curently isn't working, use `bot.user.setPresence({ game: { name: '*help', type: 1 } });` as a workaround﻿
 };client.login(config.token);
